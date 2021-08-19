@@ -13,7 +13,7 @@ struct LearningApp: App {
         
         WindowGroup {
             HomeView()
-            .environmentObject(ContentModel())
+                .environmentObject(ContentModel())
         }
     }
 }
